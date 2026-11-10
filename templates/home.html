@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CloudEwex | AWS Cloud Support</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, sans-serif; color: #10233f; background: #f5f8fc; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    header, main, footer { max-width: 1080px; margin: auto; padding: 24px; }
+    header { display:flex; justify-content:space-between; align-items:center; }
+    .brand { font-weight:800; font-size:1.35rem; color:#143c76; }
+    nav a { color:#28486e; margin-left:20px; text-decoration:none; }
+    .hero { padding:90px 24px 100px; }
+    .hero h1 { font-size:clamp(2.5rem, 7vw, 4.5rem); line-height:1.05; max-width:760px; margin:0 0 24px; }
+    .hero p { max-width:620px; font-size:1.2rem; line-height:1.7; color:#50647e; }
+    .button { display:inline-block; margin-top:16px; padding:14px 20px; background:#1769d2; color:white; text-decoration:none; border-radius:8px; font-weight:650; }
+    .services { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:16px; padding-bottom:60px; }
+    .card { background:white; padding:24px; border:1px solid #e1e9f2; border-radius:12px; }
+    .card p { color:#586d86; line-height:1.6; }
+    footer { color:#64748b; border-top:1px solid #dce5ef; }
+  </style>
+</head>
+<body>
+  <header><div class="brand">CloudEwex</div><nav><a href="#services">Services</a><a href="mailto:hello@cloudewex.com">Contact</a></nav></header>
+  <main>
+    <section class="hero">
+      <h1>Practical AWS support for your business.</h1>
+      <p>CloudEwex helps teams run their cloud infrastructure with confidence—from setup and migrations to reliable day-to-day support.</p>
+      <a class="button" href="mailto:hello@cloudewex.com">Talk to our team</a>
+    </section>
+    <section id="services" class="services" aria-label="Services">
+      <article class="card"><h2>AWS setup</h2><p>Build a clear, secure foundation for your workloads in the cloud.</p></article>
+      <article class="card"><h2>Cloud migrations</h2><p>Plan and move applications and data to AWS in manageable steps.</p></article>
+      <article class="card"><h2>Ongoing support</h2><p>Get help with operations, troubleshooting, and keeping services healthy.</p></article>
+    </section>
+  </main>
+  <footer>© 2026 CloudEwex · AWS cloud support</footer>
+</body>
+</html>
