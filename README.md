@@ -39,3 +39,4 @@ Git stores project history. GitHub hosts a copy online. The workflow in `.github
 This starter includes continuous integration (CI). Continuous deployment (CD) to AWS needs an AWS account and a hosting target. Choose that once the site content is ready; keep AWS credentials in GitHub Actions secrets or use AWS OIDC, never in source files.
 # cloudewex
 # cloudewex
+# cloudewex
